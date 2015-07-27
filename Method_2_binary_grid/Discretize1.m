@@ -2,7 +2,7 @@
 % desired number of grids you want to discretize. The output is the N+1 by N+1 transitional probablilty
 % following the principle of first order discretization.
 
-function trans=Discretise1(P,N)
+function trans=Discretize1(P,N)
 obs=size(P,2); 
 trans=zeros(N+1,N+1);
 % probability, first-hold order

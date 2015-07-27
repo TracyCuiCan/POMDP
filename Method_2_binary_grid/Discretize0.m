@@ -3,7 +3,7 @@
 % disred number of grids. The return is the transitional probablilty
 % following the principle of 1st order discretization.
 
-function trans=Discretise0(P,grids)
+function trans=Discretize0(P,grids)
 obs=size(P,2);
 N=grids; %divide [0,1] into N parts, grids
 trans=zeros(N,N);
