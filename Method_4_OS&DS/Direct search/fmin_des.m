@@ -1,7 +1,7 @@
 % This function computes six transition matrices (three for each decisio maker)
 % and finds the optimal threshold using direct search for decentralized hypothesis testing. 
 
-function [answer, fval] = fmin2()
+function [answer, fval] = fmin_des()
 options=optimset('MaxFunEvals',inf,'MaxIter',inf,'TolX',0.001,'TolFun',0.001);
 
 global trans1 trans10 trans11 trans2 trans20 trans21 P1 P2

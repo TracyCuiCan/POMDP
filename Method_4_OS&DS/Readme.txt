@@ -1,0 +1,3 @@
+As one can see, codes for direct search and orthogonal search are separated. 
+
+In the main folder, policy_iter.m uses absorption probability and perform policy iteration. first_grid.m is the modified value iteration on grids discretized following first-order hold discretization rule. This function is only used for decomposable decentralized problem, it returns the optimal threshold and the corresponding value in this scenario. test.m is the code I used to store and compare the results from direct search and orthogonal search (also value iteration in decomposable case).

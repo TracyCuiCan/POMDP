@@ -5,7 +5,7 @@
 % P=[0.25 0.75; 0.6 0.4; 0.7 0.3]; 2 observation, 3 hypothesis
 % C=[20 20 20 1];  C0 C1¡­¡­Cn cc
 
-function [lower, upper]=Discretise1_infinite(n,M,P,C)
+function [lower, upper]=Discretize1_infinite(n,M,P,C)
 tic
 %% initialization
 points=multidimension(n,M); % call function multidimension to return discretized grids

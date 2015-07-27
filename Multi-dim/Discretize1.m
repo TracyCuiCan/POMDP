@@ -6,7 +6,7 @@
 % P=[0.25 0.75; 0.6 0.4; 0.7 0.3]; 2 observation, 3 hypothesis
 % C=[20 20 20 1];  C0 C1¡­¡­Cn cc
 
-function [V,G]=Discretise1(n,M,T,P,C)
+function [V,G]=Discretize1(n,M,T,P,C)
 %% initialization
 points=multidimension(n,M); % call function multidimension to return discretized grids
 obs=size(P,2);

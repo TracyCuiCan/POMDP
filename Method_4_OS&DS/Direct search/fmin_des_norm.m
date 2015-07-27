@@ -1,7 +1,7 @@
 % This function finds the decentralized optimal thresholds using direct
 % search when the probability of observations is normally distributed.
 
-function [answer, fval] = fmin2_norm()
+function [answer, fval] = fmin_des_norm()
 options=optimset('MaxFunEvals',inf,'MaxIter',inf,'TolX',0.001,'TolFun',0.001);
 global trans1 trans10 trans11 trans2 trans20 trans21
 % P1 = [0.25 0.75; 0.6 0.4];
